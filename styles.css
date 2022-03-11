@@ -206,3 +206,8 @@ p {
   width: fit-content;
   margin: 15px;
 }
+
+.summary {
+  color: #333;
+  font-weight: bold;
+}
