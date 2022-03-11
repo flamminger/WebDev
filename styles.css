@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Montserrat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #7777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("images/back/header.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.blog-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+.blog-name-large {
+  font-size: 6em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.about-image {
+  float: left;
+  width: fit-content;
+  margin: 15px;
+}
+
+.main-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("images/back/header_bottom.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: bolder;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.entry-row {
+  border-bottom: 1px solid black;
+  padding: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.entry-row:last-child {
+  border-bottom: none;
+}
+
+.entry-element {
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.entry-ship {
+  color: #333;
+  font-weight: bold;
+  width: 24%;
+}
+
+.entry-desc {
+  width: 39%;
+}
+
+.entry-timespan {
+  
+  width: 22%;
+}
+
+.entry-btn {
+  width: 12%;
+  border-radius: 00.25em;
+}
+
+.entry-btn:hover{
+  background-color: darkgray;
+  color: black;
+}
