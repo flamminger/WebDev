@@ -182,14 +182,14 @@ p {
 .category-title {
   display: block;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
   color:#333;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .category-image {
-  width: 60;
+  width: 60px;
   height: 35px;
 }
 
@@ -198,9 +198,6 @@ p {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
-}
-
-.category-entry {
 }
 
 /* page html */
