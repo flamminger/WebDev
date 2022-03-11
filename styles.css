@@ -10,7 +10,14 @@ html,
 body {
   margin: 0;
   padding: 0;
+  
 }
+
+p {
+  text-align: justify;
+  line-height: 1.75;
+}
+
 .nav ul {
   margin: 0;
 }
@@ -39,7 +46,7 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/*CSS about */
+
 .main-header {
   background-color: rgba(0, 0, 0, 0.2);
   background-image: url("images/back/header.png");
@@ -48,6 +55,7 @@ body {
   padding-bottom: 30px;
 }
 
+/*CSS about */
 .blog-name {
   text-align: center;
   margin: 0;
@@ -190,4 +198,11 @@ body {
 }
 
 .category-entry {
+}
+
+/* page html */
+.detail-image {
+  float: right;
+  width: fit-content;
+  margin: 15px;
 }
