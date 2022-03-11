@@ -122,17 +122,17 @@ p {
 
 /*CSS index */
 .btn {
+  color: #777;
+  font-size: 0.8em;
+  border: none;
   text-align: center;
-  vertical-align: middle;
-  padding: 0.5em;
-  cursor: pointer;
-  font-size: 0.75em;
-  font-weight: bolder;
-  color: #333;
+  font-weight: bold;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .entry-row {
