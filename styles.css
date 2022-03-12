@@ -13,14 +13,18 @@ body {
   
 }
 
+
+
 p {
   text-align: justify;
   line-height: 1.75;
 }
 
 .nav ul {
-  margin: 0;
+  margin: 0 auto;
+  
 }
+
 
 .nav li {
   display: inline;
@@ -33,6 +37,15 @@ p {
   text-decoration: none;
 }
 
+.nav input {
+  border: 1px solid black;
+  }
+
+.nav form {
+  float: right;
+}
+
+
 .main-nav {
   text-align: center;
   font-size: 1.1em;
@@ -42,7 +55,7 @@ p {
   top: 0;
 }
 .main-nav li {
-  padding: 0 5%;
+  padding: 0 16px;
 }
 .nav a:hover {
   background-color: rgba(255, 255, 255, 0.3);
@@ -125,11 +138,10 @@ p {
 
 /*CSS index */
 .btn {
-  color: #777;
-  font-size: 0.8em;
-  border: none;
+  color: white;
+  font-size: 1em;
+  border: solid white;
   text-align: center;
-  font-weight: bold;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
