@@ -17,12 +17,14 @@ p {
   line-height: 1.75;
 }
 
-/*
+
+/* replaced with bootstrap
 .nav ul {
   display: flex;
   margin: 0 auto;
   align-items: center;
 }
+
 
 .nav li {
   display: inline;
@@ -39,6 +41,17 @@ p {
   border: 1px solid black;
 }
 */
+
+nav {
+ 
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+
+
+
+}
 
 .btn-src {
   color: #333;
