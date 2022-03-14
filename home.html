@@ -16,7 +16,7 @@
 
 <body>
   <header class="main-header">
-    <h1 class="blog-name blog-name-large">Boote Boote Boote</h1>
+    <h1 class="blog-name-large blog-name"><a class="text-decoration-none text-reset blog-name" href="home.html">Boote</a></h1>
     <nav class="navbar sticky-top navbar-dark">
       <div class="container-fluid">
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -60,15 +60,15 @@
   <section class="content-section loc-container">
     <h2 class="section-header">About</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      Lorem ipsum dolor sit amet, <a href="#" class="tt" data-bs-placement="top" title="Yoooo,">conesetur</a> sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut <a href="#" class="tt" data-bs-placement="top" title="I am">labore</a> et dolore magna aliquyam erat, sed diam
       voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
       clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
       amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+      nonumy eirmod tempor invidunt ut <a href="#" class="tt" data-bs-placement="top" title="a tt class">labore</a> et dolore magna aliquyam erat,
       sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
       rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-      ipsum dolor sit amet.
+      ipsum dolor sit <a href="#" class="tt" data-bs-placement="top" title="ToolTip">amet</a>.
     </p>
     <img class="img-fluid mx-auto d-block" src="images/PK00051_V.jpg" alt="USS Pennsylvania." />
     <p>
@@ -82,6 +82,46 @@
       rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
       ipsum dolor sit amet.
     </p>
+  </section>
+  <section class="content-section loc-container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/PK00004_V.jpg" class="card-img-top" alt="HMS Indomitable">
+          <div class="card-body">
+            <h5 class="card-title"><a href="page.html" class="text-reset text-decoration-none"><span>Artikel</span></a></h5>
+            <p class="card-text">Das ist ein Artikel über Dinge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/PK00109_V.jpg" class="card-img-top" alt="IJN Asama und Takasago">
+          <div class="card-body">
+            <h5 class="card-title"><a href="page.html" class="text-reset text-decoration-none"><span>Artikel</span></a></h5>
+            <p class="card-text">Das ist ein Artikel über andere Dinge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/PK00001_V.jpg" class="card-img-top" alt="KuK Monarch">
+          <div class="card-body">
+            <h5 class="card-title"><a href="page.html" class="text-reset text-decoration-none"><span>Artikel</span></a></h5>
+            <p class="card-text">Ein Artikel über Dinge die nicht nur ritsch, sondern auch ratsch machen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/PK00143_V.jpg" class="card-img-top" alt="Launch of HMS Bellerophon">
+          <div class="card-body">
+            <h5 class="card-title"><a href="page.html" class="text-reset text-decoration-none"><span>Artikel</span></a></h5>
+            <p class="card-text">Das ist ein Artikel über coole Dinge.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <footer class="main-footer">
     <div class="loc-container main-footer-container">
@@ -97,6 +137,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <!-- Tooltip -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[class="tt"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+  </script>
 </body>
 
 </html>

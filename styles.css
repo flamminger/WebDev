@@ -4,8 +4,9 @@
 * {
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-  color: #7777;
+  color: rgba(26,26,26,.7);
 }
+
 /*CSS global, header, footer */
 html,
 body {
@@ -88,22 +89,29 @@ nav {
 
 /*CSS about */
 .blog-name {
-  text-align: center;
-  margin: 0;
+  text-align: left;
+  margin:0;
+  padding-left: .25rem;
   font-size: 2em;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1em;
   color: white;
 }
 
 .blog-name-large {
-  font-size: 6em;
+  font-size: 3em;
 }
 
 .content-section {
   margin: 1em;
 }
 
+.content-section p {
+  padding-top: 0.5em;
+  padding-bottom: .5em;
+}
 
 .loc-container {
   max-width: 900px;
@@ -114,9 +122,17 @@ nav {
 
 .section-header {
   color: #333;
+  text-align: left;
+  font-size: 3em;
+  font-weight: 900;
+  padding-top: .5em;
+}
+.section-header-group {
+  color: #333;
   text-align: center;
   font-size: 3em;
   font-weight: 900;
+  padding-top: .5em;
 }
 
 /* replaced with img-fluid
