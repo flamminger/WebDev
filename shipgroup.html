@@ -16,10 +16,12 @@
 
 <body>
 <header class="main-header">
-    <h1 class="blog-name-large blog-name"><a class="text-decoration-none text-reset blog-name" href="home.html">Boote</a></h1>
+    <h1 class="blog-name-large blog-name"><a class="text-decoration-none text-reset blog-name"
+                                             href="home.html">Boote</a></h1>
     <nav class="navbar sticky-top navbar-dark">
         <div class="container-fluid">
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,20 +34,25 @@
                         <a class="nav-link" aria-current="page" href="index.html">Einträge</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown"
                            aria-expanded="false">
-                            Kategorien
+                            Nationen
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="shipgroup.html">Alle</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="page.html">UK</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="page.html">US</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="page.html">IJN</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -127,37 +134,45 @@
 <!-- add register example -->
 <section class="content-section loc-container">
     <h2 class="section-header-group">Klassen</h2>
-
-    <div class="category-entry">
-        <span class="category-title">Aircraft Carrier</span>
-    </div>
-
-    <div class="category-entry">
-        <span class="category-title">Battleship</span>
-    </div>
-
-    <div class="category-entry">
-        <span class="category-title">Cruiser</span>
-    </div>
-
-    <div class="category-entry">
-        <span class="category-title">Destroyer</span>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="images/PK00056_V.jpg" class="card-img-top" alt="IJN Akagi">
+                <div class="card-body">
+                    <h5 class="card-title">Flugzeugträger</h5>
+                    <p class="card-text">Das ist ein Artikel über die Schiffklasse X.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/PK00024_V.jpg" class="card-img-top" alt="RN Littorio">
+                <div class="card-body">
+                    <h5 class="card-title">Schlachtschiff</h5>
+                    <p class="card-text">Das ist ein Artikel über die Schiffklasse X.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/PK00045_V.jpg" class="card-img-top" alt="IJN Takao-Class">
+                <div class="card-body">
+                    <h5 class="card-title">Kreuzer</h5>
+                    <p class="card-text">Das ist ein Artikel über die Schiffklasse X.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/PK00058_V.jpg" class="card-img-top" alt="MN Le Terrible">
+                <div class="card-body">
+                    <h5 class="card-title">Zerstörer</h5>
+                    <p class="card-text">Das ist ein Artikel über die Schiffklasse X.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-
-<!-- replace
-<section class="content-section loc-container">
-  <h2 class="section-header">Zeitspanne</h2>
-
-  <div>
-    <span class="category-title">1900-1925</span>
-  </div>
-
-  <div>
-    <span class="category-title">1925-1950</span>
-  </div>
-</section>
--->
 <footer class="main-footer">
     <div class="loc-container main-footer-container">
         <h3 class="blog-name">Boote Boote Boote</h3>
