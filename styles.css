@@ -83,25 +83,43 @@ nav {
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
-  position: sticky;
-  top: 0;
+  z-index: 99;
+
+  /* position: sticky;
+  top: 0; */
 }
 
 /*CSS about */
 .blog-name {
-  text-align: left;
+  text-align: center;
   margin:0;
   padding-left: .25rem;
   font-size: 2em;
   font-family: Montserrat, sans-serif;
-  font-weight: lighter;
+  font-weight: 400;
   font-style: normal;
   line-height: 1em;
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .blog-name-large {
   font-size: 3em;
+}
+
+.blog-subtitle {
+  text-align: center;
+  margin: 10px auto;
+  padding-left: .25rem;
+  font-size: 1.5em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5em;
+  color: white;
+  text-transform: none;
+  letter-spacing: 0.05em;
 }
 
 .content-section {
@@ -257,4 +275,35 @@ nav {
 .summary {
   color: #333;
   font-weight: bold;
+}
+
+.header-select {
+  font-size: 0.5em;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: right;
+  justify-content: right;
+  line-height: 1em;
+}
+
+.header-select:hover {
+  color: white;
+
+}
+
+.footer-sect {
+  font-size: 1em;
+  color: white;
+  font-weight: 200;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1em;
+  padding-top: 0.5em;
 }
