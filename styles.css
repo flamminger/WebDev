@@ -166,7 +166,7 @@ nav {
   background-image: url("images/back/header_bottom.png");
   background-blend-mode: multiply;
   background-size: cover;
-  padding: 0.25em 0;
+  margin-top: 2em;
 }
 
 .main-footer-container {
@@ -307,3 +307,13 @@ nav {
   line-height: 1em;
   padding-top: 0.5em;
 }
+
+.loc-card-img {
+  height: 173px;
+}
+
+.loc-flag-img {
+  height: 128px;
+  scale: 75%;
+}
+
