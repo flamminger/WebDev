@@ -82,8 +82,10 @@ nav {
   background-image: url("images/back/header.png");
   background-blend-mode: multiply;
   background-size: cover;
+  min-height: 300px;
+  background-position: bottom;
   padding-bottom: 30px;
-  z-index: 99;
+
 
   /* position: sticky;
   top: 0; */
