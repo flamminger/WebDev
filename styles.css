@@ -341,3 +341,19 @@ nav {
 
 
 }
+
+.card-width {
+  width: 50%;
+}
+
+.tooglelist-btn {
+  margin-top: 1em;
+  border-radius: 00.25em;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.tooglelist-btn:hover {
+  background-color: darkgray;
+  color: black;
+}
