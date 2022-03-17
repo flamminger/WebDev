@@ -366,3 +366,12 @@ nav {
   background-color: darkgray;
   color: black;
 }
+
+.carousel-height {
+  height: 500px;
+  position: relative;
+}
+
+.carousel-img{
+  object-fit: cover;
+}
