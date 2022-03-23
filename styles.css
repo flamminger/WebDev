@@ -66,10 +66,11 @@ nav {
     padding-bottom: 30px;
 
 
-    /* Re-enable for sticky scroll header
+    /* Re-enable for sticky scroll header */
     position: sticky;
     top: 0;
-    */
+    z-index: 10000;
+
 }
 
 /*CSS custom text elements */
@@ -300,8 +301,9 @@ nav {
 }
 
 .loc-flag-img {
-    height: 128px;
-    transform: scale(.75);
+    max-height: 128px;
+    max-width: 100%;
+    /*transform: scale(.75);*/
 }
 
 .loc-related-heading {
@@ -335,9 +337,6 @@ nav {
     color: black;
 }
 
-.tablebtn {
-
-}
 
 .tablebtn:hover {
     background-color: darkgray;
@@ -351,4 +350,18 @@ nav {
 
 .carousel-img {
     object-fit: cover;
+}
+
+.related-content-img {
+    padding: 1em;
+}
+
+.card-img-top{
+    width:100%;
+    height:auto;
+}
+
+.card-img-container{
+    height: 128px;
+    padding: 5px;
 }
