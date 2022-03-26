@@ -10,13 +10,13 @@ Das Ganze ist in mehrere HTML Seiten gegliedert:
 Der Ausgangspunkt der Seite. Platz für Vorstellung der Seite und direkte Verweise auf andere Artikel[^1].
 
 #### index.html
-Diese Seite dient Register der erfassten Schiffe. Diese werden mit Bild dargestellt und am Ende findet sich noch eine ausklappbare Tabelle [^2] mit den Einträge als Listenansicht.
+Diese Seite dient als Register der erfassten Schiffe. Diese werden mit Bild dargestellt und am Ende findet sich noch eine ausklappbare Tabelle [^2] mit den Einträge als Listenansicht.
 
 #### shipgroup.html
 Im Vergleich zu index.html gibt es hier Platz für allgemeine weiterführende Artikel zu vorkommenden Nationen oder Schiffsklassen. Alternativ bietet sich hierfür das Dropdownmenü im Header an.
 
 #### page.html
-Die vierte Seite dient als Vorlage für "richtige" Artikel. Dieser gliedert sich in Titel, Kurzbeschreibung, Textkörper, Bilder und verlinkten Artikeln.
+Die vierte Seite dient als Vorlage für "richtige" Artikel. Dieser gliedert sich in Titel, Kurzbeschreibung, Textkörper, Bilder und verlinkte Artikel.
 
 #### styles.css:
 In der Datei styles.css findet sich dann noch alles, was außerhalb von Bootstrap angepasst wurde.
@@ -29,5 +29,4 @@ In der Datei styles.css findet sich dann noch alles, was außerhalb von Bootstra
 
 [^1]: Tooltipps im ersten Absatz
 [^2]: für Punkt 7 
-[^3]: Navbar läuft bis zum Ende des Headerelements mit, wenn das ganze Teil bis zum Ende der Seite mitlaufen soll, kann man im CSS bei der Klasse main-header, das Auskommentierte entfernen...
-...sieht aber komisch aus. 
+[^3]: Gesamte Header läuft mit. Wenn nur die Navbar bis zum Ende des Headerelements mitlaufen soll, einfach Z70-72 im CSS auskommentieren.
