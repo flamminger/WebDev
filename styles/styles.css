@@ -297,7 +297,9 @@ nav {
 }
 
 .loc-card-img {
-    height: 173px;
+    height: auto;
+    width:100%;
+
 }
 
 .loc-flag-img {
@@ -364,4 +366,10 @@ nav {
 .card-img-container{
     height: 128px;
     padding: 5px;
+}
+
+@media only screen and (min-width: 576px) {
+    .loc-card-img {
+        height: 173px;
+    }
 }
