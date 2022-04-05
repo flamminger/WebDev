@@ -1,7 +1,7 @@
 ## Assignment 1: HTML/CSS
 
 Das Ziel für Ass. 1 ist die Umsetzung einer Seite, die Schiffe bzw. die Marine aus der Zeit um 1900 bis 1950 näher bringt.
-Bilder bzw. Postkarten in Kombination mit Artikeln stellen auf der Seite einzelne Schiffe, Schiffsklassen, Typen, Marinen
+Bilder bzw. Postkarten in Kombination mit zugehörigem Text, stellen auf der Seite einzelne Schiffe, Schiffsklassen, Typen, Marinen
 etc. vor. Vorläufig gib es eine Ausgangsseite die auf zwei Auswahlseiten zu Einträgen bzw. auf allgemeine Artikel verweist.
 Weiters gibt es eine Pseudoartikelseite, also wie ein konkreter Eintrag aussehen könnte.<br/>
 Sollte der (Leidens-)Weg zum Endprodukt interessant sein, findet sich der git Ordner auch noch im Zip-Verzeichnis... <br/>
