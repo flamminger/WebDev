@@ -37,3 +37,11 @@ In der Datei styles.css findet sich dann noch alles, was außerhalb von Bootstra
 [^1]: Tooltipps im ersten Absatz
 [^2]: für Punkt 7 
 [^3]: Gesamte Header läuft mit. Wenn nur die Navbar bis zum Ende des Headerelements mitlaufen soll, einfach Z70-72 im CSS auskommentieren.
+
+## Assignment 3: JS
+
+Das Ziel für ASS3 ist die statische Tabelle in der Datei index.html zu ersetzen und mit frisch aus einer SQL-Datenbank
+stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen der VU Informationsmodellierung I erstellt
+wurde, verwendet werden. 
+Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern und 
+zugehörige Bilder aufrufen kann.
