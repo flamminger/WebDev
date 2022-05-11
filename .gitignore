@@ -450,5 +450,7 @@ assets/flags/sweden.png
 /assets/PK00176_V.png
 /assets/PK00183_V.png
 /assets/PK00184_V.png
-/.idea/
 /js/node_modules/
+/node_modules/
+/package-lock.json
+/.idea/

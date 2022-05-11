@@ -1,0 +1,22 @@
+{
+  "name": "boote",
+  "version": "1.0.0",
+  "description": "Das Ziel für Ass. 1 ist die Umsetzung einer Seite, die Schiffe bzw. die Marine aus der Zeit um 1900 bis 1950 näher bringt.\r Bilder bzw. Postkarten in Kombination mit zugehörigem Text, stellen auf der Seite einzelne Schiffe, Schiffsklassen, Typen, Marinen\r etc. vor. Vorläufig gib es eine Ausgangsseite die auf zwei Auswahlseiten zu Einträgen bzw. auf allgemeine Artikel verweist.\r Weiters gibt es eine Pseudoartikelseite, also wie ein konkreter Eintrag aussehen könnte.<br/>\r Sollte der (Leidens-)Weg zum Endprodukt interessant sein, findet sich der git Ordner auch noch im Zip-Verzeichnis... <br/>\r ... der Header und ich werden jedenfalls keine Freunde mehr... <br/>\r Das Ganze ist in mehrere HTML Seiten gegliedert:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamminger/WebDev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flamminger/WebDev/issues"
+  },
+  "homepage": "https://github.com/flamminger/WebDev#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.8"
+  }
+}
