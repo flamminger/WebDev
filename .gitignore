@@ -454,3 +454,6 @@ assets/flags/sweden.png
 /node_modules/
 /package-lock.json
 /.idea/
+/datatables/DataTables-1.11.5/
+/datatables/datatables.min.js
+/datatables/datatables.min.css

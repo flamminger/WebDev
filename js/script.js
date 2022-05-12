@@ -2837,51 +2837,67 @@ const boote = [
 
 ];
 
-function onClick(data) {
-    //head
-    let div = document.createElement("div");
-    div.setAttribute("class", "collapse");
-    div.setAttribute("id", "generated")
-    let table = document.createElement("table");
-    table.setAttribute("class", "table align-middle table-hover")
-    let fields = Object.keys(data[0]);
-    let thead = document.createElement("thead");
-    let head_row = document.createElement("tr");
-    fields.forEach(function(field) {
-        if (field !== "Postkarte" || field !== 'Schachtel' || field !== "Typ" || field !== "Marine"
-        || field !== "Fotograph" || field !== "Verlgasbezeichnung" || field !== "Gelaufen"
-            || field !== "Format" || field !== "Klasse")  {
-            let head_cell = document.createElement("th");
-            head_cell.textContent = field;
-            head_cell.setAttribute("class", "loc-related-heading");
-            head_cell.setAttribute("scope", "col");
-            head_row.appendChild(head_cell);
-
-        }
+$(document).ready( function () {
+    $('#card_list').DataTable({
+        "data": boote,
+        "columns": [
+            {"data": "boote.Schiff"},
+            {"data": "boote.Klasse"},
+            {"data": "boote.Beschreibung"},
+            {"data": "boote.Datierung"}
+        ]
     });
-    thead.appendChild((head_row));
-    //body
-    data.forEach(function(obj) {
-        let row = document.createElement("tr");
-        fields.forEach(function(field) {
-            if (field !== "Postkarte" || field !== 'Schachtel' || field !== "Typ" || field !== "Marine"
-                || field !== "Fotograph" || field !== "Verlgasbezeichnung" || field !== "Gelaufen"
-                || field !== "Format" || field !== "Klasse") {
-                let cell = ducment.createElement("td");
-                if (field === "Schiff") {
-                    row.setAttribute("class", "entry-ship")
-                };
-                if (field ==="Beschreibung") {
-                    row.setAttribute("class", "entry-desc")
-                };
-                if (field ==="Datierung") {
-                    row.setAttribute("class", "entry-timespan")
-                };
+})
 
-            }
-        });
-        table.appendChild(row);
-    })
-    return div
-}
-document.querySelector(#generate).appendChild(onClick(boote));
+
+
+
+
+// function onClick(data) {
+//     //head
+//     let div = document.createElement("div");
+//     div.setAttribute("class", "collapse");
+//     div.setAttribute("id", "generated")
+//     let table = document.createElement("table");
+//     table.setAttribute("class", "table align-middle table-hover")
+//     let fields = Object.keys(data[0]);
+//     let thead = document.createElement("thead");
+//     let head_row = document.createElement("tr");
+//     fields.forEach(function(field) {
+//         if (field !== "Postkarte" || field !== 'Schachtel' || field !== "Typ" || field !== "Marine"
+//         || field !== "Fotograph" || field !== "Verlgasbezeichnung" || field !== "Gelaufen"
+//             || field !== "Format" || field !== "Klasse")  {
+//             let head_cell = document.createElement("th");
+//             head_cell.textContent = field;
+//             head_cell.setAttribute("class", "loc-related-heading");
+//             head_cell.setAttribute("scope", "col");
+//             head_row.appendChild(head_cell);
+//
+//         }
+//     });
+//     thead.appendChild((head_row));
+//     //body
+//     data.forEach(function(obj) {
+//         let row = document.createElement("tr");
+//         fields.forEach(function(field) {
+//             if (field !== "Postkarte" || field !== 'Schachtel' || field !== "Typ" || field !== "Marine"
+//                 || field !== "Fotograph" || field !== "Verlgasbezeichnung" || field !== "Gelaufen"
+//                 || field !== "Format" || field !== "Klasse") {
+//                 let cell = ducment.createElement("td");
+//                 if (field === "Schiff") {
+//                     row.setAttribute("class", "entry-ship")
+//                 };
+//                 if (field ==="Beschreibung") {
+//                     row.setAttribute("class", "entry-desc")
+//                 };
+//                 if (field ==="Datierung") {
+//                     row.setAttribute("class", "entry-timespan")
+//                 };
+//
+//             }
+//         });
+//         table.appendChild(row);
+//     })
+//     return div
+// }
+// document.querySelector(#generate).appendChild(onClick(boote));

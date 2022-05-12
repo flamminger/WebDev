@@ -45,3 +45,6 @@ stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen
 wurde, verwendet werden. 
 Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern und 
 zugehörige Bilder aufrufen kann.
+Die Daten werden über Node JS aus dem SQLite DB File rausgezogen und dann als JSON in eine Variable
+gespeichert - da fehlt leider der Server dahinter. 
+Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet.
