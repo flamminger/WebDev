@@ -199,9 +199,10 @@ nav {
 
 .entry-head-desc {
     align-content: center;
+    text-align: center;
     color: #333;
     font-weight: bold;
-    width: 30%;
+    /*width: 30%;*/
 }
 
 .entry-ship {
