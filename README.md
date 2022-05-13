@@ -42,9 +42,11 @@ In der Datei styles.css findet sich dann noch alles, was außerhalb von Bootstra
 
 Das Ziel für ASS3 ist die statische Tabelle in der Datei index.html zu ersetzen und mit frisch aus einer SQL-Datenbank
 stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen der VU Informationsmodellierung I erstellt
-wurde, verwendet werden. 
-Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern und 
-zugehörige Bilder aufrufen kann.
-Die Daten werden über Node JS aus dem SQLite DB File rausgezogen und dann als JSON in eine Variable
+wurde, verwendet werden. <br/>
+Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern, filtern
+und suchen kann.<br/>
+Umsetzung:
+Die Daten werden über Node JS aus dem SQLite DB File herausgezogen und dann als JSON 
 gespeichert - da fehlt leider der Server dahinter. 
-Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet.
+Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet. Hier werden dann die
+Spalten Schiff, Klasse und Beschreibung generiert. Es gibt die Möglichkeit zu sortieren, zu suchen und auch zu blättern.

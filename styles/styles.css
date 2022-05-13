@@ -211,11 +211,11 @@ nav {
 }
 
 .entry-desc {
-    width: 39%;
+    width: 49%;
 }
 
-.entry-timespan {
-    width: 22%;
+.entry-class {
+    width: 24%;
 }
 
 .entry-btn {
@@ -372,4 +372,10 @@ nav {
     .loc-card-img {
         height: 173px;
     }
+}
+
+
+.generated_table {
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
