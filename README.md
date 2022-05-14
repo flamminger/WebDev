@@ -1,3 +1,18 @@
+## Assignment 3: JS
+
+Das Ziel für ASS3 ist die statische Tabelle in der Datei index.html zu ersetzen und mit frisch aus einer SQL-Datenbank
+stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen der VU Informationsmodellierung I erstellt
+wurde, verwendet werden. <br/>
+Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern, filtern
+und suchen kann.<br/>
+Bisherige Umsetzung:
+Die Daten werden über Node JS aus dem SQLite DB File herausgezogen und dann als JSON 
+gespeichert - für die live Umsetzung fehlt da leider der Server dahinter. 
+Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet. Hier werden dann die
+Spalten Schiff, Klasse, Beschreibung und Handle generiert. Es gibt die Möglichkeit zu sortieren, zu suchen, zu blättern und die jeweiligen
+Bilder aufzurufen.
+
+
 ## Assignment 1: HTML/CSS
 
 Das Ziel für Ass. 1 ist die Umsetzung einer Seite, die Schiffe bzw. die Marine aus der Zeit um 1900 bis 1950 näher bringt.
@@ -37,16 +52,3 @@ In der Datei styles.css findet sich dann noch alles, was außerhalb von Bootstra
 [^1]: Tooltipps im ersten Absatz
 [^2]: für Punkt 7 
 [^3]: Gesamte Header läuft mit. Wenn nur die Navbar bis zum Ende des Headerelements mitlaufen soll, einfach Z70-72 im CSS auskommentieren.
-
-## Assignment 3: JS
-
-Das Ziel für ASS3 ist die statische Tabelle in der Datei index.html zu ersetzen und mit frisch aus einer SQL-Datenbank
-stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen der VU Informationsmodellierung I erstellt
-wurde, verwendet werden. <br/>
-Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern, filtern
-und suchen kann.<br/>
-Umsetzung:
-Die Daten werden über Node JS aus dem SQLite DB File herausgezogen und dann als JSON 
-gespeichert - da fehlt leider der Server dahinter. 
-Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet. Hier werden dann die
-Spalten Schiff, Klasse und Beschreibung generiert. Es gibt die Möglichkeit zu sortieren, zu suchen und auch zu blättern.
