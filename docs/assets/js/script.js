@@ -47,7 +47,7 @@ $(document).ready(function () {
             {'data': 'Beschreibung', defaultContent: ""},
             {
                 'data': 'Bild', "render": function (data) {
-                    return '<a href="../assets/img/boote/' + data + '_V.jpg" target="_blank" class="text-muted entry-btn">Go</a>';
+                    return '<a href="assets/img/boote/' + data + '_V.jpg" target="_blank" class="text-muted entry-btn">Go</a>';
                 }
             }
         ]
