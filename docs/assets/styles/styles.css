@@ -67,9 +67,9 @@ nav {
 
 
     /* Disable to stop sticky scroll header */
-    position: sticky;
-    top: 0;
-    z-index: 10000;
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*z-index: 10000;*/
 
 }
 
