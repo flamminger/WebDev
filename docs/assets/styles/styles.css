@@ -58,7 +58,7 @@ nav {
 
 .main-header {
     background-color: rgba(0, 0, 0, 0.2);
-    background-image: url("../img/back/header.png");
+    background-image: url("../img/back/header.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     min-height: 300px;
@@ -141,7 +141,7 @@ nav {
 /* footer */
 .main-footer {
     background-color: rgba(0, 0, 0, 0.2);
-    background-image: url("../img/back/footer.png");
+    background-image: url("../img/back/footer.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     margin-top: 2em;
