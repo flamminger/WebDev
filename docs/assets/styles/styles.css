@@ -380,3 +380,13 @@ nav {
     padding-bottom: 1em;
     padding-top: 1em;
 }
+
+.page-item.active .page-link {
+    font-family: Inter, sans-serif;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.page-link {
+    font-family: Inter, sans-serif;
+    color: rgba(26, 26, 26, .7);
+}
