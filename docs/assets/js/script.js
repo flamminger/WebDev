@@ -1,10 +1,7 @@
-
-
 // datatable | jquery
 $(document).ready(function () {
     $('#postcard_table').DataTable({
-        //'ajax': '/WebDev/data/postcards.json',
-        'ajax': '/data/postcards.json',
+        'ajax': '/WebDev/data/postcards.json',
         'columnDefs': [
             {className: "entry-head-desc", "targets": [3]}],
         'columns': [
@@ -18,4 +15,15 @@ $(document).ready(function () {
             }
         ]
     });
+});
+
+
+document.addEventListener('scroll', function (event) {
+    let nav = document.querySelector('.fixed-top');
+    let stop = document.querySelector('.main-header');
+    if (scrollY > stop.clientHeight - nav.clientHeight) {
+
+        nav.classList.add('scrolled')
+    } else
+        nav.classList.remove('scrolled')
 });

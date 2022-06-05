@@ -28,6 +28,7 @@ nav {
     font-size: 1.5em;
     font-weight: bold;
 
+
 }
 
 .btn-src {
@@ -61,9 +62,11 @@ nav {
     background-image: url("../img/back/header.jpg");
     background-blend-mode: multiply;
     background-size: cover;
-    min-height: 300px;
     background-position: center;
-    padding-bottom: 30px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+
 
 
     /* Disable to stop sticky scroll header */
@@ -389,4 +392,9 @@ nav {
 .page-link {
     font-family: Inter, sans-serif;
     color: rgba(26, 26, 26, .7);
+}
+
+.fixed-top.scrolled {
+    background-color: rgba(58, 118, 152, 0.9);
+    transition: background-color 200ms linear;
 }
