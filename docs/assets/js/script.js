@@ -4,10 +4,8 @@
 $(document).ready(function () {
     $('#postcard_table').DataTable({
         'ajax': '/WebDev/data/postcards.json',
-        'pagingType': 'simple_numbers',
         'columnDefs': [
-            {className: "entry-head-desc", "targets": [3]}
-        ],
+            {className: "entry-head-desc", "targets": [3]}],
         'columns': [
             {'data': 'Schiff', defaultContent: ""},
             {'data': 'Klasse', defaultContent: ""},
@@ -20,5 +18,3 @@ $(document).ready(function () {
         ]
     });
 });
-
-
