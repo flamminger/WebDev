@@ -3,7 +3,6 @@
 // datatable | jquery
 $(document).ready(function () {
     $('#postcard_table').DataTable({
-        'responsive': true,
         'ajax': '/WebDev/data/postcards.json',
         'columnDefs': [
             {className: "entry-head-desc", "targets": [3]}
