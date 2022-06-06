@@ -1,19 +1,11 @@
-## Assignment 3: JS
-
-Das Ziel für ASS3 ist die statische Tabelle in der Datei index.html zu ersetzen und mit frisch aus einer SQL-Datenbank
-stammenden Daten zu befüllen. Dafür soll ein SQLite DB File, welches im Rahmen der VU Informationsmodellierung I erstellt
-wurde, verwendet werden. <br/>
-Prinzipiell soll da am Ende die Tabelle, generiert aus den live Daten stehen, durch die man im Idealfall blättern, filtern
-und suchen kann.<br/>
-Bisherige Umsetzung:
-Die Daten werden über Node JS aus dem SQLite DB File herausgezogen und dann als JSON 
-gespeichert - für die live Umsetzung fehlt da leider der Server dahinter. 
-Die JSON Daten werden über jQuery und das Plugin Datatable zu einer Tabelle weiterverarbeitet. Hier werden dann die
-Spalten Schiff, Klasse, Beschreibung und Handle generiert. Es gibt die Möglichkeit zu sortieren, zu suchen, zu blättern und die jeweiligen
-Bilder aufzurufen.
+## JS
 
 
-## Assignment 1: HTML/CSS
+1. Tabelle mit jQuery und DataTables erzeugt. Dafür nötige Daten mit NodeJS aus SQLite DB extrahiert und als JSON gespeichert. Zugehörige Bilder können über zusammengebauten Link aufgerufen werden. SQLite DB wurde in LV Infomod I erstellt.
+2. Navbar wird mit JS verändert, sobald man das <header> Element 'überscrollt' hat und bleibt dann bis zum Ende der Seite oben kleben.
+
+
+## HTML/CSS
 
 Das Ziel für Ass. 1 ist die Umsetzung einer Seite, die Schiffe bzw. die Marine aus der Zeit um 1900 bis 1950 näher bringt.
 Bilder bzw. Postkarten in Kombination mit zugehörigem Text, stellen auf der Seite einzelne Schiffe, Schiffsklassen, Typen, Marinen
